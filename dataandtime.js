@@ -5,7 +5,7 @@ let timer = 0
 
 //starts/resets sim and adds click button
 
-function change_background(){
+function start_sim(){
   background(255)
   start = true
   timer = 0
@@ -14,13 +14,13 @@ function change_background(){
   clickme = createButton("click");
   clickme.position(windowWidth/2,500);
 }
-//makes start button when clicked intiate function change_background
+//makes start button when clicked intiate function start_sim
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
   button = createButton("START");
   button.position(windowWidth/2,0);
-  button.mouseClicked(change_background);
+  button.mouseClicked(start_sim);
 
 }
 //draws timer + prints from array randomly 
@@ -55,7 +55,6 @@ function mousePressed() {
   counter++
   randomprint =Math.floor(Math.random()*words.length)
   console.log(counter)
- //console.log(words[counter%words.length])
   width = Math.random()*(windowWidth-200)+50
   height = Math.random()*(windowHeight-100)+50
   textsize = (Math.random()*20+20);
