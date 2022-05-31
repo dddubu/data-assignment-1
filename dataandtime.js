@@ -41,7 +41,7 @@ function draw() {
    
 }
 let counter = 0
-let words = ["happy" , "love", "good", "fabulous", "excellent", "congratulations", "accomplished", "food", "sex", "best", "cheer", "smart", "pretty", "enjoy", "joy", "bliss", "warm", "bliss", "laughter", "win", "success", "free", "smile", "sun", "holiday", "lucky"
+let words = ["happy" , "love", "good", "fabulous", "excellent", "congratulations", "accomplished", "food", "sex", "best", "cheer", "smart", "pretty", "enjoy", "joy","warm", "bliss", "laughter", "win", "success", "free", "smile", "sun", "holiday", "lucky"
 ]
 let width = 0
 let height = 0
